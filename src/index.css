@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "HarleyStyle";
+  src: url("./assets/harley-style-brush.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@layer components {
+  .font-Staatliches {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .font-HarleyStyle {
+    font-family: "HarleyStyle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+}
