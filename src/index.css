@@ -7,6 +7,12 @@
 
 @import "tailwindcss";
 
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @layer components {
   .font-Staatliches {
     font-family: "Staatliches", sans-serif;

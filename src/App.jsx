@@ -192,7 +192,95 @@ function App() {
                     </a>
                 </div>
             </header>
-            
+            <main>
+                <section className="py-32 px-12">
+                    <div className="grid grid-cols-3 gap-x-12">
+                        <article class="col-span-1 relative h-[480px] overflow-hidden rounded-md shadow-lg transition-transform duration-300 hover:-translate-y-2">
+                            <figure class="w-full h-full">
+                                <img
+                                    src="https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/joseph-young-IOzGybDmKR8-unsplash.jpg"
+                                    alt="Performance Day 1"
+                                    class="w-full h-full object-cover"
+                                />
+                                <figcaption class="absolute inset-0 flex items-center flex-col justify-center text-white gap-y-8">
+                                    <header class="">
+                                        <h2 class="font-HarleyStyle text-7xl">
+                                            $45
+                                        </h2>
+                                    </header>
+                                    <div class="text-center">
+                                        <p class="items-center text-lg font-Montserrat">
+                                            Lorem ipsum • consectetur <br />
+                                            adip •incididunt
+                                        </p>
+                                    </div>
+                                    <button
+                                        href="#"
+                                        className="px-14 py-6 bg-[#ee2851] hover:bg-white hover:text-black font-Staatliches text-lg tracking-wider"
+                                    >
+                                        Pass Day I
+                                    </button>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="col-span-1 relative h-[480px] overflow-hidden rounded-md shadow-lg transition-transform duration-300 hover:-translate-y-2">
+                            <figure class="w-full h-full">
+                                <img
+                                    src="https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/austin-neill-SLUeuL-mrRg-unsplash.jpg"
+                                    alt="Performance Day 1"
+                                    class="w-full h-full object-cover"
+                                />
+                                <figcaption class="absolute inset-0 flex items-center flex-col justify-center text-white gap-y-8">
+                                    <header class="">
+                                        <h2 class="font-HarleyStyle text-7xl">
+                                            $65
+                                        </h2>
+                                    </header>
+                                    <div class="text-center">
+                                        <p class="items-center text-lg font-Montserrat">
+                                            Lorem ipsum • consectetur <br />
+                                            adip •incididunt
+                                        </p>
+                                    </div>
+                                    <button
+                                        href="#"
+                                        className="px-14 py-6 bg-[#ee2851] hover:bg-white hover:text-black font-Staatliches text-lg tracking-wider"
+                                    >
+                                        Pass Day II
+                                    </button>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="col-span-1 relative h-[480px] overflow-hidden rounded-md shadow-lg transition-transform duration-300 hover:-translate-y-2">
+                            <figure class="w-full h-full">
+                                <img
+                                    src="https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/neonbrand-MENIBa0eZeA-unsplash.jpg"
+                                    alt="Performance Day 1"
+                                    class="w-full h-full object-cover"
+                                />
+                                <figcaption class="absolute inset-0 flex items-center flex-col justify-center text-white gap-y-8">
+                                    <header class="">
+                                        <h2 class="font-HarleyStyle text-7xl">
+                                            $75
+                                        </h2>
+                                    </header>
+                                    <p class="items-center text-lg font-Montserrat">
+                                        Lorem ipsum • consectetur <br />
+                                        adip •incididunt
+                                    </p>
+                                    <button
+                                        href="#"
+                                        className="px-14 py-6 bg-[#ee2851] hover:bg-white hover:text-black font-Staatliches text-lg tracking-wider"
+                                    >
+                                        Pass 2 Days
+                                    </button>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                </section>
+            </main>
         </>
     );
 }
