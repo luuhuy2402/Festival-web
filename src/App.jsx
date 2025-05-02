@@ -265,10 +265,12 @@ function App() {
                                             $75
                                         </h2>
                                     </header>
-                                    <p class="items-center text-lg font-Montserrat">
-                                        Lorem ipsum • consectetur <br />
-                                        adip •incididunt
-                                    </p>
+                                    <div class="text-center">
+                                        <p class="items-center text-lg font-Montserrat">
+                                            Lorem ipsum • consectetur <br />
+                                            adip •incididunt
+                                        </p>
+                                    </div>
                                     <button
                                         href="#"
                                         className="px-14 py-6 bg-[#ee2851] hover:bg-white hover:text-black font-Staatliches text-lg tracking-wider"
@@ -281,6 +283,93 @@ function App() {
                     </div>
                 </section>
             </main>
+            <footer className="bg-black pb-12">
+                <section className="w-full h-full px-10 py-28 flex justify-between items-center text-white">
+                    <div className="flex flex-col gap-y-6">
+                        <h3 className="font-Staatliches text-xl">Stay Tuned</h3>
+                        <p className="font-Montserrat text-md">
+                            herion@wolfthemes.com <br />
+                            (485) 209-5175
+                        </p>
+
+                        <div className="flex gap-x-10">
+                            <a href="#">
+                                <i className="fa-brands fa-instagram text-2xl"></i>
+                            </a>
+                            <a href="#">
+                                <i className="fa-brands fa-facebook-f text-2xl"></i>
+                            </a>
+                            <a href="#">
+                                <i className="fa-brands fa-x-twitter text-2xl"></i>
+                            </a>
+                            <a href="#">
+                                <i className="fa-brands fa-spotify text-2xl"></i>
+                            </a>
+                            <a href="#">
+                                <i className="fa-brands fa-youtube text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-y-6 items-center">
+                        <h3 className="font-HarleyStyle text-8xl">Herion</h3>
+                        <div className="font-Montserrat text-center">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                <br /> elit,
+                                <br /> sed do eiusmod tempor incididunt ut
+                                labore et dolore
+                                <br /> magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-end gap-y-6">
+                        <h3 className="font-Staatliches text-xl">
+                            Quick Links
+                        </h3>
+                        <nav>
+                            <ul className="flex flex-col items-end gap-y-2">
+                                <li>
+                                    <a href="#">My Account</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shipping & Returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <div className="font-Montserrat text-[#a2a2a2] text-sm flex items-center justify-center gap-x-7 ">
+                    <span>© 2025 WolfThemes Records</span>
+                    <ul className="flex items-center justify-center gap-x-5">
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </>
     );
 }
