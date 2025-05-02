@@ -1,3 +1,16 @@
+import image_insta1 from "./assets/image_insta1.png";
+import image_insta2 from "./assets/image_insta2.png";
+import image_insta3 from "./assets/image_insta3.png";
+import image_insta4 from "./assets/image_insta4.png";
+import image_insta5 from "./assets/image_insta5.png";
+import image_insta6 from "./assets/image_insta6.png";
+import image_insta7 from "./assets/image_insta7.png";
+import image_insta8 from "./assets/image_insta8.png";
+import image_insta9 from "./assets/image_insta9.png";
+import image_insta10 from "./assets/image_insta10.png";
+import image_insta11 from "./assets/image_insta11.png";
+import image_insta12 from "./assets/image_insta12.png";
+
 function App() {
     return (
         <>
@@ -192,7 +205,7 @@ function App() {
                     </a>
                 </div>
             </header>
-            <main>
+            <main className="">
                 <section className="py-32 px-12">
                     <div className="grid grid-cols-3 gap-x-12">
                         <article class="col-span-1 relative h-[480px] overflow-hidden rounded-md shadow-lg transition-transform duration-300 hover:-translate-y-2">
@@ -281,6 +294,165 @@ function App() {
                             </figure>
                         </article>
                     </div>
+                </section>
+                <section className=" relative">
+                    <div className="w-full h-full">
+                        <div className="grid grid-cols-6">
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta1}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta2}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta3}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta4}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta5}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta6}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-6">
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta7}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta8}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta9}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta10}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta11}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                            <div className="relative group overflow-hidden">
+                                <a href="#">
+                                    <img
+                                        src={image_insta12}
+                                        alt=""
+                                        className="w-full h-full group-hover:scale-110 transform transition-transform duration-700"
+                                    />
+                                </a>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                                    <i className="fa-brands fa-instagram text-2xl text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="#"
+                        className="font-Staatliches p-5 bg-white text-black text-lg tracking-wider absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "
+                    >
+                        Instagram @herion_wt
+                    </a>
                 </section>
             </main>
             <footer className="bg-black pb-12">
