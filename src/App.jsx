@@ -10,6 +10,8 @@ import image_insta9 from "./assets/image_insta9.png";
 import image_insta10 from "./assets/image_insta10.png";
 import image_insta11 from "./assets/image_insta11.png";
 import image_insta12 from "./assets/image_insta12.png";
+import image_carousel1 from "./assets/image_carousel1.png";
+import Slider from "./components/Slider";
 
 function App() {
     return (
@@ -206,6 +208,7 @@ function App() {
                 </div>
             </header>
             <main className="">
+                {/*Ticket price */}
                 <section className="py-32 px-12">
                     <div className="grid grid-cols-3 gap-x-12">
                         <article class="col-span-1 relative h-[480px] overflow-hidden rounded-md shadow-lg transition-transform duration-300 hover:-translate-y-2">
@@ -295,6 +298,39 @@ function App() {
                         </article>
                     </div>
                 </section>
+
+                {/* <section className="flex p-20 overflow-hidden">
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                    <figure>
+                        <img src={image_carousel1} alt="" />
+                    </figure>
+                </section> */}
+                <Slider />
+
+                {/* Instagram Herion */}
                 <section className=" relative">
                     <div className="w-full h-full">
                         <div className="grid grid-cols-6">
